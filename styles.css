@@ -1,4 +1,4 @@
-.header-container {
+.header {
   display: flex;
   justify-content: center;
 }
@@ -6,18 +6,19 @@ h1{
   display: inline-block;
   background: #fff;
 }
-h3 {
-  background: gray;
-  padding: 5px;
-}
-.container {
+.content {
   display: inline-flex;
   border: black 2px solid;
 }
-.nestedelement{
+.content__cell{
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
   border: black 2px solid;
-  padding: 10px
+  padding: 5px;
+}
+.content__cell--alert {
+  background: gray;
+  border: none;
+  padding: 5px;
 }
